@@ -2,7 +2,7 @@
  Objective:
 To build a comprehensive interactive dashboard using Power BI for exploring, analyzing, and visualizing sales data — including customer behavior, profitability, trends, and geographical performance.
 
-📁 Dataset Used:
+Dataset Used:
 Source: train.csv
 
 Contains order-level sales data with fields like:
@@ -11,8 +11,10 @@ Order Date, Sales, Customer ID, Product Category, Region, etc.
 
 Simulated fields added: Cost, Budget, LastMovementDate, Stage, Quantity
 
-🔧 Features Implemented by Step:
+Features Implemented by Step:
+
 Level 1: Basic Visualizations
+
 Sales Dashboard – Regional trends, top products using bar charts, slicers, and KPI cards.
 
 Employee Demographics – Gender and department distribution (simulated example).
@@ -41,6 +43,7 @@ Drill-through Reports – Enable right-click navigation from summary to detail b
 Dynamic KPI Switching – Slicer + DAX SWITCH() to toggle between Sales, Profit, Quantity.
 
 Level 3: Advanced & Interactive
+
 Sales Funnel Report – Simulated Stage column for Lead → Opportunity → Converted pipeline.
 
 Geo Mapping with Heatmap – Location-based sales visual using map visual with color saturation.
